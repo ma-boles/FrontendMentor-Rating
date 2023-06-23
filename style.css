@@ -1,0 +1,166 @@
+* {
+    padding:0px;
+    margin: auto;
+    font-family: 'Overpass', sans-serif;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 20px
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+   height: 440px;
+    max-width: 430px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+img{
+    margin-left: 35px;
+    margin-top: 35px;
+    background-color: rgba(169, 169, 169, 0.157);
+    padding: 15px;
+    border-radius: 180px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin-left:35px;
+    margin-right: 50px;
+    line-height: 28px;
+}
+
+.radio-toolbar {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    }
+    .radio-toolbar input[type="radio"] {
+      opacity: 0;
+      position: fixed;
+      width: 0;
+    }
+    .radio-toolbar label {
+        display: inline-block;
+        margin-left:10px;
+        margin-right: 10px;
+        padding: 17px 22px;
+        font-family: sans-serif, Arial;
+        font-size: 16px;
+        text-align: center;
+        border: 2px solid #444;
+        border-radius: 180px;
+        color: white;
+        background-color: rgba(169, 169, 169, 0.157);
+        border-radius: 180px;
+        border-style: none;
+        cursor: pointer
+    }
+    .radio-toolbar label:hover {
+      background-color: orange;
+    }
+    .radio-toolbar input[type="radio"]:checked + label {
+        background-color: grey;
+    }
+
+.rating--section {
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+.submitBtn--section {
+    padding-bottom: 10px
+}
+.submitBtn {
+    background-color: orange;
+    color: white;
+    height: 3.5em;
+    width: 85%;
+    border-radius: 40px;
+    font-size: 1em;
+    margin-top:30px;
+    margin-left: 33px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+}
+.submitBtn:hover {
+    color: orange;
+    background-color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 100px
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.thankYou {
+   background-color: hsl(213, 19%, 18%);
+    height: 450px;
+    max-width: 430px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 75px;
+    align-content: center;
+}
+
+.thankYouImg--section {
+    padding-top: 25
+    px;
+}
+.thankYouImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    background-color: transparent;
+}
+
+.ratingScore {
+    display: block;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+h3 {
+    color: orange;
+    font-weight: 100;
+    background-color: rgba(169, 169, 169, 0.091);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 40px; 
+    font-size: 17px;
+}
+.thankYouH2 {
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+.thankYouP {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: lighter;
+}

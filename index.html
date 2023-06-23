@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="card">
+  <div class="starIcon">
+  <img src="images/icon-star.svg" alt="star icon">
+  </div>
+
+  <h2>How did we do?</h2>
+
+<p>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+
+<div class="radio-toolbar">
+  <input type="radio" id="radio1" name="radioNum" value="1" checked>
+  <label for="radio1">1</label>
+
+  <input type="radio" id="radio2" name="radioNum" value="2">
+  <label for="radio2">2</label>
+
+  <input type="radio" id="radio3" name="radioNum" value="3">
+  <label for="radio3">3</label>
+  
+  <input type="radio" id="radio4" name="radioNum" value="4">
+  <label for="radio4">4</label>
+
+  <input type="radio" id="radio5" name="radioNum" value="5">
+  <label for="radio5">5</label>
+</div>
+
+<div class="submitBtn--section">
+
+  
+  <button class="submitBtn" onclick="submit()">SUBMIT</button>
+</div>
+</div>
+  <!-- Rating state end -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mary Boles</a>.
+  </div>
+  <script src="rating.js"></script>
+</body>
+</html>
